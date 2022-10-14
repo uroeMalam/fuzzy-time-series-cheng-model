@@ -254,8 +254,6 @@
                           <h1 id="mse">0</h1>
                       </div>
                     </div>
-<hr>
-<canvas id="myChart" width="400" height="400"></canvas>
                 </div>
             </div>
         </div>
@@ -582,41 +580,6 @@ $(document).ready(function () {
         console.log(mse);
         document.getElementById('mse').innerHTML = ''
         document.getElementById('mse').innerHTML =  Math.ceil(mse)
-
-        // data chart
-        // label bulan+tahun
-        // data bulan+tahun
-        // data training bulan+tahun
-        // label peramalah
-        // data peramalan
-
-        // chart start
-        const ctx = document.getElementById('myChart').getContext('2d');
-        const myChart = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
-                datasets: [{
-                    data: [12, 19, 3, 5, 2, 3],
-                    backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                    ],
-                    borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                    ],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-        // chart end
-
 
         // end click
         

@@ -45,7 +45,7 @@
             <div class="col">
                 <div class="form-group">
                     <label for="total">Total</label>
-                    <input disabled type="number" class="form-control" id="total" name="total" value="{{ $data->total }}" aria-describedby="total">
+                    <input disabled type="number" class="form-control" id="total" name="total" value="{{ $data->sukses_antar + $data->gagal_antar + $data->retus }}" aria-describedby="total">
                     <small class="d-none text-denger" id="total"></small>
                 </div>
             </div>

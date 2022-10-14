@@ -106,11 +106,11 @@
             <i class="icon ic-stats"></i>
             Pengiriman
           </a>
-          <a href="perhitungan" class="item-menu nav-link {{ Request::is('perhitungan') ? 'active':''}}">
+          <a href="grafik" class="item-menu nav-link {{ Request::is('grafik') ? 'active':''}}">
             <i class="icon ic-stats"></i>
             Perhitungan
           </a>
-          <a href="grafik" class="item-menu nav-link {{ Request::is('grafik') ? 'active':''}}">
+          <a href="perhitungan" class="item-menu nav-link {{ Request::is('perhitungan') ? 'active':''}}">
             <i class="icon ic-stats"></i>
             Grafik Perhitungan
           </a>
